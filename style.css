@@ -1,0 +1,42 @@
+body {
+    background-color: black;
+}
+
+.container {
+    width: 560px;
+    height:430px;
+    background-color: #80cdc6;
+    margin-left: 100px;
+}
+
+.world {
+    position: absolute;
+    width:560px;
+    top:108px;
+    left:108px;
+    z-index: 1;
+}
+
+.water {
+    position: absolute;
+    width: 560px;
+    top: 392px;
+    left:108px;
+    z-index: 4;
+}
+
+.clouds {
+    width: 350px;
+    position: absolute;
+    top: 10px;
+    left: 318px;
+    z-index: 3;
+}
+
+.wooden-ship {
+    width: 103px;
+    position: absolute;
+    top: 297px;
+    left: 136px;
+    z-index: 2;
+}

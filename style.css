@@ -6,37 +6,34 @@ body {
     width: 560px;
     height:430px;
     background-color: #80cdc6;
-    margin-left: 100px;
+    margin: auto;
+    position: relative;
 }
 
-.world {
+.container div {
     position: absolute;
+}
+.world {
     width:560px;
-    top:108px;
-    left:108px;
+    top:100px;
     z-index: 1;
 }
 
 .water {
-    position: absolute;
     width: 560px;
-    top: 392px;
-    left:108px;
+    top: 384px;
     z-index: 4;
 }
 
 .clouds {
     width: 350px;
-    position: absolute;
-    top: 10px;
-    left: 318px;
+    left: 210px;
     z-index: 3;
 }
 
 .wooden-ship {
     width: 103px;
-    position: absolute;
-    top: 297px;
-    left: 136px;
+    top: 288px;
+    left: 28px;
     z-index: 2;
 }
